@@ -1,5 +1,8 @@
 # 💰 Expense Tracker System
 
+<img width="1919" height="903" alt="image" src="https://github.com/user-attachments/assets/d9a7da34-4a5a-40c4-996d-b4b1920de84e" />
+
+
 A comprehensive web-based expense tracking application built with PHP and MySQL. Track your daily expenses, visualize spending patterns with interactive charts, and generate detailed monthly reports.
 
 ![PHP](https://img.shields.io/badge/PHP-7.4+-blue)

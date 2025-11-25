@@ -104,13 +104,13 @@ git clone https://github.com/yourusername/expense-tracker-system.git
 **Option A: Using phpMyAdmin**
 1. Select the `expense_tracker` database
 2. Click on the **"Import"** tab
-3. Click **"Choose File"** and select `database.sql`
+3. Click **"Choose File"** and select `database/expense_tracker.sql`
 4. Click **"Go"** to import
 
 **Option B: Using SQL Tab**
 1. Select the `expense_tracker` database
 2. Click on the **"SQL"** tab
-3. Copy the contents of `database.sql`
+3. Copy the contents of `database/expense_tracker.sql`
 4. Paste into the SQL query box
 5. Click **"Go"** to execute
 
@@ -158,12 +158,14 @@ expense_tracker_system/
 │   └── js/
 │       └── script.js          # Custom JavaScript
 │
+├── database/
+│   └── expense_tracker.sql    # Database schema and initial data
+│
 ├── includes/
 │   ├── header.php             # Header template with navbar
 │   └── footer.php             # Footer template
 │
 ├── config.php                 # Database configuration
-├── database.sql               # Database schema and initial data
 │
 ├── login.php                  # User login page
 ├── register.php               # User registration page
